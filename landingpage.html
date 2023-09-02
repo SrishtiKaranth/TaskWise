@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | TaskWise | </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logocontainer">
+                <div class="logo">
+                    <img src="Bird.png" alt="kirby">
+                    <p id="logotext">TaskWise</p>
+                </div>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="contentbox">
+        <div class="content">
+            <p id="heading">🦤 <span >Hello there, lovely human! </span><br> I'm <b>Kirby,</b> your friendly <br>mascot!</p>
+            <p id="subheading">Welcome to <span style="color:white ">TaskWise,</span> your personal task companion.
+                Are you ready to start typing in your to-do list and conquer your day? Oh, and don't forget to let me know your name – it's always nice to address you by your name.
+                Let's make your day productive and organized together!</p>
+                <input type=text placeholder="Enter your name..." class="nameholder" id="usernameplace">
+
+            </input>
+        </div>
+        <div class="rightholder">
+            <div class="glassbox">
+                <img src="kirby big.png" alt="kirby" id="kirby">
+                <div class="ellipse"></div>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+    <div class="chatbot">
+        <p id="chattext">Talk to Kirby!</p>
+        <div class="icon">
+            <div id="circle"></div>
+            <img id="chatbird" src="Bird.png" alt="bird">
+        </div>
+        
+    </div>
+    <div class="welcometext">
+        <div class="welcomeuser">
+            <p id="greet">Hello,<span id="user">User!</span></p>
+            <img src="Bird.png" alt="bird" style="margin-top: 22px;">
+        </div>
+        <p id="subtext">Start typing and let's make your to-do list a breeze to manage! 📝</p>
+    </div>
+    <div class="buttons">
+        <button class="taskbutton" id="new">Add new task</button>
+        <button class="taskbutton" id="remove">Remove selected task</button>
+    </div>
+    <div class="notepadcontainer">
+        <div class="notepadfull">
+            <div class="punchhole">
+                <div id="hole"></div>
+                <div id="hole"></div>
+                <div id="hole"></div>
+                <div id="hole"></div>
+            </div>
+            <!-- <ul class="alltasks">
+                <div class="task">
+                    <input type="checkbox" name="taskcheck" class="checkboxes">
+                    <li id="taskname"><input type="text" id="taskentry"></li>
+                </div>
+    
+    
+            </ul> -->
+            <ul class="alltasks" id="alltasks">
+
+            </ul>
+        </div>
+        <p style="color: white; font-size: 20px; font-weight: 400;">🎉 Hurray! You're on Fire!</p>
+        <p style="height: 100px; width: 900px; color: #5c5c5c; font-size: 20px; font-weight: 100;">To add a new task, simply click the "Add Task" button and type in your task. Once you've completed a task, just click the checkbox next to it to mark it as done. If you want to remove a task, select it and then hit the "Remove Task" button. Enjoy the simplicity of staying organized! 🌟</p>
+    </div>
+    <footer>
+        <div class="profile">
+           <a href="https://www.behance.net/dexteralexsis"><iconify-icon icon="ri:behance-fill" style="color: #99F1E1; margin: 20px; margin-bottom:2px" width="33" height="33"></iconify-icon></a> 
+           <a href="https://www.linkedin.com/in/srishti-karanth-554b28232/"><iconify-icon icon="mdi:linkedin" style="color: #99f1e1; margin: 20px; margin-bottom:2px" width="33" height="33"></iconify-icon></a> 
+           <a href="https://github.com/SrishtiKaranth"><iconify-icon icon="mdi:github" style="color: #99f1e1; margin: 20px; margin-bottom:2px" width="33" height="33"></iconify-icon></a> 
+        </div>
+        <p id="watermark">TaskWise@Srishti_Karanth</p>
+    </footer>
+</body>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script src="actions.js"></script>
+</html>
